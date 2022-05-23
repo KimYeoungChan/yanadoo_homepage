@@ -1,2 +1,42 @@
 @charset "UTF-8";
 /* stlye.css */
+
+#wrap {width: 100%;}
+
+/* header */
+#headBox {
+  width: 100%; height:90px; background:#fff;
+}
+.contanier {
+  display: flex;
+  width:1200px; height:inherit; margin:0 auto;
+  justify-content: space-around;
+}
+
+.nav-group {}
+
+.nav-group h1 {
+  display:inline-block;
+}
+.nav-group h1 .logo {
+  display:block;
+  width:80px; height:20px;
+  background-image: url(/images/logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav-group nav {}
+.nav-group nav ul {}
+.nav-group nav ul > li {display: inline-block;}
+.nav-group nav ul > li > a {}
+
+#contnet1 {width: 100%; height: 400px; background-color: #222;}
+#contnet2 {width: 100%; height: 400px; background-color: #adf;}
+#contnet3 {width: 100%; height: 400px; background-color: #333;}
+#contnet4 {width: 100%; height: 400px; background-color: #eee;}
+#contnet5 {width: 100%; height: 400px; background-color: gray;}
+#contnet6 {width: 100%; height: 400px; background-color: green;}
+#contnet7 {width: 100%; height: 400px; background-color: darkblue;}
+#contnet8 {width: 100%; height: 400px; background-color: coral;}
+#footBox {width: 100%; height: 400px; background-color:aqua;}
