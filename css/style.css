@@ -13,23 +13,52 @@
   justify-content: space-around;
 }
 
-.nav-group {}
-
-.nav-group h1 {
-  display:inline-block;
+.nav__group {
+  display: flex; width:1100px; height:90px;
+  align-items:center; justify-content:flex-start;
 }
-.nav-group h1 .logo {
+
+.nav__group h1 {
+  flex: 0 0 8rem;
+  margin-right: 1rem;
+}
+.nav__group h1 .logo {
   display:block;
-  width:80px; height:20px;
-  background-image: url(/images/logo.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 7.7rem; height: 2.1rem;
+  background: url(/images/logo.png) no-repeat 0 0/100%;
 }
 
-.nav-group nav {}
-.nav-group nav ul {}
-.nav-group nav ul > li {display: inline-block;}
-.nav-group nav ul > li > a {}
+.nav__group nav {
+    width: 100%;
+    padding: 0 0 0 1rem;
+    box-sizing: border-box;
+}
+
+.nav__group nav li {
+  display: inline-block;
+  padding-right: 4rem;
+  box-sizing: border-box
+}
+
+.nav__group nav li:hover {
+  font-weight:700;
+}
+
+.nav__global {
+  display: flex; width:100px; height:inherit;
+  align-items:center; justify-content:flex-start;
+}
+
+.nav__global button {}
+.nav__global button span {
+  line-height: 2.6rem;
+  display: inline-block;
+  width: 5.8rem;
+  height: 2.6rem;
+  background-color: #fded52;
+  border-radius: 0.3rem;
+  font-weight:700;
+}
 
 #contnet1 {width: 100%; height: 400px; background-color: #222;}
 #contnet2 {width: 100%; height: 400px; background-color: #adf;}
