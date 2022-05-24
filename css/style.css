@@ -157,7 +157,26 @@
     color: #717188;
 }
 
-#contnet2 {width: 100%; height: 400px; background-color: #adf;}
+/*   content2__text   */
+
+#contnet2 {
+  width: 100%; height: 40rem;
+  display:flex;
+  background-color: rgb(247, 247, 252);
+  justify-content: center;
+  align-items: center;
+}
+
+#contnet2 .content2__text {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700; 
+}
+
+
+
+
+
 #contnet3 {width: 100%; height: 400px; background-color: #333;}
 #contnet4 {width: 100%; height: 400px; background-color: #eee;}
 #contnet5 {width: 100%; height: 400px; background-color: gray;}
